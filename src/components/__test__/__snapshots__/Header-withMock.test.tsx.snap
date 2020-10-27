@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<header
+  className="masthead"
+>
+  <div
+    className="inner"
+  >
+    <h3
+      className="masthead-brand"
+      data-testid="logo"
+    />
+    <nav
+      className="nav nav-masthead justify-content-center"
+    >
+      <a
+        aria-current="page"
+        className="nav-link active"
+        data-testid="Home"
+        href="/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+      <a
+        aria-current={null}
+        className="nav-link"
+        data-testid="My Profile"
+        href="/profile"
+        onClick={[Function]}
+      >
+        My Profile
+      </a>
+    </nav>
+  </div>
+</header>
+`;

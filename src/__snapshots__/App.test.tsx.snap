@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="text-center root-class col-md-8 col-xs-12 col-sm-12 d-flex w-100 p-3 mx-auto flex-column"
+>
+  <header
+    className="masthead"
+  >
+    <div
+      className="inner"
+    >
+      <h3
+        className="masthead-brand"
+        data-testid="logo"
+      />
+      <nav
+        className="nav nav-masthead justify-content-center"
+      >
+        <a
+          aria-current="page"
+          className="nav-link active"
+          data-testid="Home"
+          href="#/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+        <a
+          aria-current={null}
+          className="nav-link"
+          data-testid="My Profile"
+          href="#/profile"
+          onClick={[Function]}
+        >
+          My Profile
+        </a>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="d-flex justify-content-center align-items-center h-100 w-100"
+  >
+    <main
+      className="inner cover"
+      role="main"
+    >
+      <h1
+        className="cover-heading"
+        data-testid="coverHeading"
+      >
+        This is Home page.
+      </h1>
+      <p
+        className="lead"
+        data-testid="coverContent"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni illum molestiae reiciendis et quis libero porro neque suscipit beatae sunt facilis ullam corrupti temporibus voluptatibus, facere, quod corporis similique?
+      </p>
+      <p
+        className="lead"
+      >
+        <button
+          className="btn btn-lg btn-secondary"
+          data-testid="button"
+        >
+          Subscribe
+        </button>
+      </p>
+    </main>
+  </div>
+</div>
+`;
