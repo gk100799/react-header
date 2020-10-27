@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="d-flex justify-content-center align-items-center h-100 w-100"
+>
+  <main
+    className="inner cover"
+    role="main"
+  >
+    <h1
+      className="cover-heading"
+      data-testid="coverHeading"
+    >
+      This is Home page.
+    </h1>
+    <p
+      className="lead"
+      data-testid="coverContent"
+    >
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni illum molestiae reiciendis et quis libero porro neque suscipit beatae sunt facilis ullam corrupti temporibus voluptatibus, facere, quod corporis similique? 
+    </p>
+    <p
+      className="lead"
+    >
+      <button
+        className="btn btn-lg btn-secondary"
+        data-testid="button"
+      >
+        Subscribe
+      </button>
+    </p>
+  </main>
+</div>
+`;
